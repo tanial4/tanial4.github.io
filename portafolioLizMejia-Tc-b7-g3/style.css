@@ -181,7 +181,6 @@ h4 {
 .testimonios {
     background-color: var(--rosa);
     padding: 2rem;
-    height: 30rem;
 }
 
 .card-non {
@@ -199,4 +198,16 @@ h4 {
 
 .borde {
     border: none;
+}
+
+.cont-cont {
+    background-color: #77d2fc20;
+}
+
+.iz {
+    font-size: 1.3em;
+
+    &&:hover {
+        color: var(--lila);
+    }
 }

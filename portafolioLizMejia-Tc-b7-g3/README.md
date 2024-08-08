@@ -4,7 +4,7 @@
 Proyecto creado durante el bootcamp Tecnolochicas PRO, es adaptable a distintos dispositivos o tamaños de pantalla.
 El propósito de está página web es mostrar mi portafolio de proyectos como desarrolladora web.💜
 
-Podrás encontrarlo aquí [Portafolio] (https://tanial4.github.io/portafolioLizMejia-Tc-b7-g3/).
+Podrás encontrarlo aquí [Portafolio](https://tanial4.github.io/portafolioLizMejia-Tc-b7-g3/).
 
 ### Tecnologías
 

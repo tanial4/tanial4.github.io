@@ -1,0 +1,202 @@
+:root {
+    --rosa: #ff7e7e;
+    --lila: #ba65ff;
+    --verde: #c9ff79;
+    --azul: #77d2fc;
+    --melom: #ffc67b;
+}
+
+* {
+    font-family: Poppins;
+}
+
+.header {
+    background-color: var(--lila);
+    color: black;
+    justify-content: center;
+}
+
+.header span {
+    color: black;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.header a { 
+    color: black;
+    text-transform: capitalize;
+}
+
+.header a:hover {
+    color: var(--verde);
+}
+
+.header a:visited {
+    color: white;
+}
+
+#activo {
+    background-color: var(--verde);
+    font-weight: bold;
+}
+
+.sobre-mi {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    text-align: justify;
+}
+
+.boton {
+    color: var(--melom);
+    font-weight: bolder;
+    border-color: var(--melom);
+    width: 15rem;
+
+    &&:hover {
+        background-color: var(--melom);
+        border-color: var(--melom);
+    }
+}
+
+
+.bih {
+    font-size: 2.8rem;
+    color: var(--azul); 
+}
+
+.bihh {
+    font-size: 2.8rem;
+    color: var(--melom);
+}
+
+.img-proyecto1 {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.48),rgba(0, 0, 0, 0.48)),
+        url('assets/pinteres-clone-ss.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.img-proyecto1 a{
+    text-decoration: none;
+}
+
+.img-proyecto2 {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.48),rgba(0, 0, 0, 0.48)),
+        url('assets/taylor-page-ss.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.img-proyecto2 a {
+    text-decoration: none;
+}
+
+.card {
+    background-color: var(--lila);
+    border: none;
+    color: white;
+}
+
+.img-proyecto3 {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.48),rgba(0, 0, 0, 0.48)),
+        url('assets/portafolio-ss.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 20rem;
+}
+
+.img-proyecto3 a {
+    text-decoration: none;
+    color: white;
+}
+
+.img-proyecto4 {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.48),rgba(0, 0, 0, 0.48)),
+        url('assets/inventary-ss.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 20rem;
+}
+
+.img-proyecto5 {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.48),rgba(0, 0, 0, 0.48)),
+        url('assets/pizel-portal-ss.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 20rem;
+}
+
+.img-proyecto5 a {
+    text-decoration: none;
+    color: white;
+}
+
+.img-proyecto6 {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.48),rgba(0, 0, 0, 0.48)),
+        url('assets/tc-ss.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 20rem;
+}
+
+.bi {
+    font-size: 2.8rem;
+}
+
+h4 {
+    color: var(--rosa);
+}
+
+.typewriter h4 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid var(--rosa); /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    letter-spacing: .09em; /* Adjust as needed */
+    animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+    font-family: Consolas;
+    color: var(--rosa);
+}  
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: var(--rosa); }
+}
+
+.testimonios {
+    background-color: var(--rosa);
+    padding: 2rem;
+    height: 30rem;
+}
+
+.card-non {
+    background-color: inherit;
+    padding-top: 1rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    width: 60%;
+}
+
+.card-non img {
+    width: 10rem;
+    margin: 0 auto;
+}
+
+.borde {
+    border: none;
+}

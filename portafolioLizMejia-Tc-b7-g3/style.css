@@ -6,7 +6,6 @@
     --melom: #ffc67b;
 }
 
-
 body {
     font-family: Poppins;
 }
@@ -157,7 +156,7 @@ p {
 
 .app {
     color: var(--rosa);
-    font-family: Consolas;
+    font-family: Inconsolata;
     font-weight: bold;
 }
 
